@@ -1,4 +1,6 @@
-In my last post, I remarked that the inverse bidirectional type system was obviously algorithmic. In this post, let's implement it! What follows is a bit of OCaml code implementing the type system of the previous post.
+# Implementing Inverse Bidirectional Typechecking 
+
+[In my last post](http://semantic-domain.blogspot.com/2019/05/inverting-bidirectional-typechecking.html), I remarked that the inverse bidirectional type system was obviously algorithmic. In this post, let's implement it! What follows is a bit of OCaml code implementing the type system of the previous post.
 
 First, let's give a data type to represent the types of the linear type system. As usual, we will have a datatype `tp` with one constructor for each grammatical production. In the comment next to each constructor, I'll give the term that the constructor corresponds to.
 
